@@ -1,10 +1,6 @@
 plugins {
   //inlude the nodeJS plugin to execute nodejs and npm tasks rtert
-  id "com.moowork.node" # version "1.2.0"
-}
-
-node {
-	download = true
+  id "com.moowork.node" version "1.2.0"
 }
 
 //declare a build task
