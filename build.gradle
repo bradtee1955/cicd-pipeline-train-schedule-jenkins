@@ -3,6 +3,12 @@ plugins {
   id "com.moowork.node" version "1.2.0"
 }
 
+node {
+  version = '14.19.3'
+  distBaseUrl = 'https://direct.nodejs.org/dist/'
+  download = true
+}
+
 //declare a build task
 task build
 
